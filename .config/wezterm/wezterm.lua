@@ -18,6 +18,11 @@ Config = {
 	default_cursor_style = "BlinkingBar", -- or "SteadyBar" or "Block" or "Underline"
 	font = wezterm.font("JetBrainsMono Nerd Font"),
 	font_size = 18.0,
-	color_scheme = "Catppuccin Macchiato",
+	color_scheme = "Catppuccin Mocha",
+	--color_scheme = "Gruvbox dark, hard (base16)",
+
+	window_background_opacity = 0.9,
+	text_background_opacity = 1,
+	macos_window_background_blur = 80,
 }
 return Config
